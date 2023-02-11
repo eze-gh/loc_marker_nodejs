@@ -1,1 +1,1 @@
-# loc_marker_nodejs
+A simple web app for saving waypoints.

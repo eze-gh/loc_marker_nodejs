@@ -1,0 +1,23 @@
+<!DOCTYE html>
+<html>
+<head>
+<title>HOME PAGE</title>
+</head>
+<body>
+
+<h1>My Web Page</h1>
+<ul>
+<%
+
+for (let i = 0; i < numberOfIterations; i++) { 
+%>
+<li><%= i %></li>
+<%
+}
+%>
+</ul>
+<h2><%= Date() %></h2>
+
+
+</body>
+</html>
